@@ -12,7 +12,7 @@ Follow this:
 
 2、fix bug;
 
-3、Implement new TabBar, **AnimationLineBar**;
+3、Implement new TabBar, **`AnimationLineBar`**;
 
 ## Getting started
 ```javascript
@@ -25,8 +25,7 @@ Suppose we had a custom tab bar called `AnimationLineBar`, we would inject
 it into our `ScrollableTabView` like this:
 
 ```javascript
-var ScrollableTabView = require('react-native-scrollable-tab-view');
-var AnimationLineBar = require('./AnimationLineBar');
+import {ScrollableTabView, AnimationLineBar} from '@meategg/react-native-scroll-tab-view';
 
 var App = React.createClass({
   render() {
