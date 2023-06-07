@@ -1,23 +1,23 @@
 
 ## @meategg/react-native-scroll-tab-view
 [![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view)
+
 #!!! This is fork from [react-native-scrollable-tab-view](https://github.com/ptomasroos/react-native-scrollable-tab-view)
 
-This is extions on react-native-scrollable-tab-view;
+This is extension from react-native-scrollable-tab-view;
 
 Follow this:
 
-1、Upgrade **`@react-native-community/viewpager`** to **`react-native-pager-view`** implement of [react-native-scrollable-tab-view];
+1、Upgrade **`react-native-pager-view`** instead **`@react-native-community/viewpager`**  of [react-native-scrollable-tab-view](https://github.com/ptomasroos/react-native-scrollable-tab-view);
+
 2、fix bug;
+
 3、Implement new TabBar, **AnimationLineBar**;
 
 ## Getting started
-
-$ npm install @meategg/react-native-scroll-tab-view --save
-
-or $ yarn add @meategg/react-native-scroll-tab-view
-
-
+```javascript
+yarn add @meategg/react-native-scroll-tab-view
+```
 
 ## Injecting a AnimationLineBar
 
