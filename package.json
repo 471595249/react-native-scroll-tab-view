@@ -1,0 +1,31 @@
+{
+  "name": "@meategg/react-native-scroll-tab-view",
+  "version": "0.1.0",
+  "description": "A react-native component ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/471595249/react-native-scroll-tab-view.git"
+  },
+  "keywords": [
+    "react-antive"
+  ],
+  "author": "meategg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/471595249/react-native-scroll-tab-view/issues"
+  },
+  "homepage": "https://github.com/471595249/react-native-scroll-tab-view#readme",
+  "peerDependencies": {
+    "react-native": ">=0.20.0"
+  },
+  "dependencies": {
+    "react-native-pager-view": "^6.2.0",
+    "create-react-class": "^15.6.2",
+    "prop-types": "^15.6.0",
+    "react-timer-mixin": "^0.13.3"
+  }
+}
