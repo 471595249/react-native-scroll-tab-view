@@ -4,7 +4,7 @@
 
 ## !!! This is fork from [react-native-scrollable-tab-view](https://github.com/ptomasroos/react-native-scrollable-tab-view)
 
-This is extension from react-native-scrollable-tab-view;
+This is an extension to react-native-scrollable-tab-view;
 
 Follow this:
 
