@@ -15,7 +15,7 @@ class AnimationLineBar extends Component {
   }
 
   _renderTab (name, page, isTabActive, onPressHandler) {
-    const { textStyle, activeColor = '#00AEFF', inactiveColor = '#dedede' } = this.props
+    const { textStyle, activeColor = '#00AEFF', inactiveColor = '#000' } = this.props
     const textColor = isTabActive ? activeColor : inactiveColor
     const fontWeight = isTabActive ? 'bold' : 'normal'
     const Button = Platform.OS == 'ios' ? ButtonIos : ButtonAndroid
@@ -39,13 +39,12 @@ class AnimationLineBar extends Component {
       containerWidth,
       tabs,
       tabUnderlineDefaultWidth,
-      tabUnderlineScaleX,
       activeColor = '#00AEFF',
       inactiveColor = '#dedede'
     } = this.props
     const numberOfTabs = tabs.length
     const underlineWidth = tabUnderlineDefaultWidth ? tabUnderlineDefaultWidth : containerWidth / (numberOfTabs * 2)
-    const scale = tabUnderlineScaleX ? tabUnderlineScaleX : 3
+    const scale = 2
     const deLen = (containerWidth / numberOfTabs - underlineWidth) / 2
     const tabUnderlineStyle = {
       position: 'absolute',
